@@ -1,0 +1,10 @@
+pipeline {
+    agent any
+    stage {
+        stage('Stage'){
+            steps{
+                echo "The job executed from  vscode"
+            }
+        }
+    }
+}
